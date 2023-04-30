@@ -1,0 +1,53 @@
+{
+  "inputs": [
+    {
+      "name": "name",
+      "label": "Book Name",
+      "type": "text",
+      "fullWidth": true,
+      "disabled": true
+    },
+    {
+      "name": "author",
+      "label": "Author",
+      "type": "text",
+      "fullWidth": true,
+      "disabled": true
+    },
+    {
+      "name": "avatar",
+      "label": "Book Avatar",
+      "type": "text",
+      "fullWidth": true,
+      "disabled": true
+    },
+    {
+      "name": "owner",
+      "label": "Book Owner",
+      "type": "text",
+      "fullWidth": true,
+      "disabled": true
+    },
+    {
+      "name": "credits",
+      "label": "Credits",
+      "type": "text",
+      "fullWidth": true,
+      "disabled": true
+    },
+    {
+      "name": "category",
+      "label": "Book Category",
+      "type": "text",
+      "fullWidth": true,
+      "disabled": true
+    },
+    {
+      "name": "createdAt",
+      "label": "CreatedAt",
+      "type": "text",
+      "fullWidth": true,
+      "disabled": true
+    }
+  ]
+}
