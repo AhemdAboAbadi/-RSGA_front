@@ -33,6 +33,11 @@ const navigation = (): VerticalNavItemsType => {
       icon: Book,
       path: '/vision',
     },
+    {
+      title: 'Collaboration',
+      icon: Book,
+      path: '/collaboration',
+    },
   ]
 }
 
