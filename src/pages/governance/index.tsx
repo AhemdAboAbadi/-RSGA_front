@@ -3,7 +3,7 @@ import TextField from '@mui/material/TextField'
 import TextareaAutosize from '@mui/material/TextareaAutosize'
 import Box from '@mui/material/Box'
 import { Button } from '@mui/material'
-import { notify } from '../../../src/@core/utils/helpers'
+import { notify } from '../../@core/utils/helpers'
 import { styled } from '@mui/material/styles'
 
 const Container = styled(Box)(({ theme }) => ({
@@ -78,22 +78,22 @@ const LabelStyle = styled('label')(({ theme }) => ({
   marginBottom: '0.5rem',
 }))
 
-const collaboration = () => {
+const Governance = () => {
   // const handleSave = () => {
   //   console.log('save')
   //   notify('success', 'Saved successfully')
   // }
 
   const handleSaveInterMemberRelations = () => {
-    notify('success', 'Saved successfully Inter-member-relations')
+    notify('success', 'Saved successfully Supreme Council')
   }
 
-  const handleSaveInterMemberCooperation = () => {
-    notify('success', 'Saved successfully handleSaveInterMemberCooperation')
+  const handleSaveTheGeneralSecretariat = () => {
+    notify('success', 'Saved successfully handleSaveTheGeneralSecretariat')
   }
 
-  const handleSavePartnerships = () => {
-    notify('success', 'Saved successfully Partnerships')
+  const handleSaveMinisterialCouncil = () => {
+    notify('success', 'Saved successfully Ministerial Council')
   }
 
   return (
@@ -107,42 +107,42 @@ const collaboration = () => {
         value={'Collaboration'}
         disabled
       /> */}
-      <h1>Collaboration</h1>
+      <h1>Governance</h1>
       <br />
 
-      {/*Inter-member-relations */}
+      {/*Supreme Council */}
       <ContainerInterMemberRelations>
         <TextField
           sx={{
             width: '50%',
           }}
           type={'text'}
-          label={'Inter-member-relations'}
-          value={'Inter-member-relations'}
+          label={'Supreme Council'}
+          value={'Supreme Council'}
           disabled
         />
         <br />
         <ContainerInterMemberRelationsSub>
           <ContainerBoxTextAreas>
             <LabelStyle>
-              Inter-member-relations brief <strong>English</strong>
+              Supreme Council brief <strong>English</strong>
             </LabelStyle>
             <TextareaAutosizeStyled
               aria-label="minimum height"
               minRows={15}
-              placeholder="Inter-member-relations brief English (this will appear in the home page)"
+              placeholder="Supreme Council brief English (this will appear in the home page)"
               style={{ width: '100%', maxHeight: '300' }}
             />
           </ContainerBoxTextAreas>
 
           <ContainerBoxTextAreas>
             <LabelStyle>
-              Inter-member-relations more detailed <strong>Arabic</strong>
+              Supreme Council more detailed <strong>Arabic</strong>
             </LabelStyle>
             <TextareaAutosizeStyled
               aria-label="minimum height"
               minRows={15}
-              placeholder="Inter-member-relations more detailed Arabic (this will appear in the collaboration page)"
+              placeholder="Supreme Council more detailed Arabic (this will appear in the goverance-members page)"
               style={{ width: '100%' }}
             />
           </ContainerBoxTextAreas>
@@ -157,43 +157,43 @@ const collaboration = () => {
           handleSaveInterMemberRelations()
         }}
       >
-        Save Inter-member-relations
+        Save Supreme Council
       </ButtonSave>
       <Divider />
 
-      {/*Partnerships */}
+      {/*Ministerial Council */}
       <ContainerInterMemberRelations>
         <TextField
           sx={{
             width: '50%',
           }}
           type={'text'}
-          label={'Partnerships'}
-          value={'Partnerships'}
+          label={'Ministerial Council'}
+          value={'Ministerial Council'}
           disabled
         />
         <br />
         <ContainerInterMemberRelationsSub>
           <ContainerBoxTextAreas>
             <LabelStyle>
-              Partnerships brief <strong>English</strong>
+              Ministerial Council brief <strong>English</strong>
             </LabelStyle>
             <TextareaAutosizeStyled
               aria-label="minimum height"
               minRows={15}
-              placeholder="Partnerships brief English (this will appear in the home page) "
+              placeholder="Ministerial Council brief English (this will appear in the home page) "
               style={{ width: '100%' }}
             />
           </ContainerBoxTextAreas>
 
           <ContainerBoxTextAreas>
             <LabelStyle>
-              Partnerships more detailed <strong>Arabic</strong>
+              Ministerial Council more detailed <strong>Arabic</strong>
             </LabelStyle>
             <TextareaAutosizeStyled
               aria-label="minimum height"
               minRows={15}
-              placeholder="Partnerships more detailed Arabic (this will appear in the collaboration page) "
+              placeholder="Ministerial Council more detailed Arabic (this will appear in the goverance-members page) "
               style={{ width: '100%' }}
             />
           </ContainerBoxTextAreas>
@@ -206,46 +206,46 @@ const collaboration = () => {
         onClick={() => {
           console.log('save')
 
-          handleSavePartnerships()
+          handleSaveMinisterialCouncil()
         }}
       >
-        Save Partnerships
+        Save Ministerial Council
       </ButtonSave>
       <Divider />
 
-      {/*Inter-member cooperation */}
+      {/*TheGeneralSecretariat */}
       <ContainerInterMemberRelations>
         <TextField
           sx={{
             width: '50%',
           }}
           type={'text'}
-          label={'Inter-member cooperation'}
-          value={'Inter-member cooperation'}
+          label={'TheGeneralSecretariat'}
+          value={'TheGeneralSecretariat'}
           disabled
         />
         <br />
         <ContainerInterMemberRelationsSub>
           <ContainerBoxTextAreas>
             <LabelStyle>
-              Inter-member cooperation brief <strong>English</strong>
+              TheGeneralSecretariat brief <strong>English</strong>
             </LabelStyle>
             <TextareaAutosizeStyled
               aria-label="minimum height"
               minRows={15}
-              placeholder="Inter-member cooperation brief English (this will appear in the home page) "
+              placeholder="TheGeneralSecretariat brief English (this will appear in the home page) "
               style={{ width: '100%' }}
             />
           </ContainerBoxTextAreas>
 
           <ContainerBoxTextAreas>
             <LabelStyle>
-              Inter-member cooperation more detailed <strong>Arabic</strong>
+              TheGeneralSecretariat more detailed <strong>Arabic</strong>
             </LabelStyle>
             <TextareaAutosizeStyled
               aria-label="minimum height"
               minRows={15}
-              placeholder="Inter-member cooperation more detailed Arabic (this will appear in the collaboration page)"
+              placeholder="TheGeneralSecretariat more detailed Arabic (this will appear in the goverance-members page)"
               style={{ width: '100%' }}
             />
           </ContainerBoxTextAreas>
@@ -258,13 +258,13 @@ const collaboration = () => {
         onClick={() => {
           console.log('save')
 
-          handleSaveInterMemberCooperation()
+          handleSaveTheGeneralSecretariat()
         }}
       >
-        Save Inter-member cooperation
+        Save TheGeneralSecretariat
       </ButtonSave>
     </div>
   )
 }
 
-export default collaboration
+export default Governance

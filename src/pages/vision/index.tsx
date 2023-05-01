@@ -13,13 +13,17 @@ const Container = styled(Box)(({ theme }) => ({
 }))
 
 const TextareaAutosizeStyled = styled(TextareaAutosize)(({ theme }) => ({
-  border: '1px solid #ccc',
   borderRadius: '4px',
   padding: '8px',
   width: '100%',
   fontSize: '1rem',
   lineHeight: '1.5',
+  maxHeight: '300px',
   resize: 'none',
+  '&:focus': {
+    outline: 'none',
+    border: '1px solid #ccc',
+  },
 }))
 
 const TextFieldContainerStyled = styled(TextField)(({ theme }) => ({
@@ -71,19 +75,10 @@ const Vision = () => {
           <label htmlFor="authority">
             Authority and vision <strong>English</strong>
           </label>
-          <TextareaAutosize
+          <TextareaAutosizeStyled
             aria-label="minimum height"
             minRows={15}
             placeholder="Enter your Authority and vision here English"
-            style={{
-              border: '1px solid #ccc',
-              borderRadius: '4px',
-              padding: '8px',
-              width: '100%',
-              fontSize: '1rem',
-              lineHeight: '1.5',
-              resize: 'none',
-            }}
           />
         </div>
 
