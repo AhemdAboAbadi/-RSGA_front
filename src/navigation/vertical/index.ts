@@ -2,7 +2,7 @@
 import HomeOutline from 'mdi-material-ui/HomeOutline'
 import Account from 'mdi-material-ui/Account'
 import Book from 'mdi-material-ui/Book'
-
+// import BookIcon from '@mui/icons-material/Book';
 // ** Type import
 import { VerticalNavItemsType } from 'src/@core/layouts/types'
 
@@ -18,15 +18,20 @@ const navigation = (): VerticalNavItemsType => {
       sectionTitle: 'user',
     },
 
+    // {
+    //   title: 'User List',
+    //   icon: Account,
+    //   path: '/userList',
+    // },
+    // {
+    //   title: 'Book List',
+    //   icon: Book,
+    //   path: '/BookList',
+    // },
     {
-      title: 'User List',
-      icon: Account,
-      path: '/userList',
-    },
-    {
-      title: 'Book List',
+      title: 'Vision',
       icon: Book,
-      path: '/BookList',
+      path: '/vision',
     },
   ]
 }
