@@ -17,7 +17,7 @@ type ThemeConfig = {
 
 const themeConfig: ThemeConfig = {
   // ** Layout Configs
-  templateName: 'Bookhood' /* App Name */,
+  templateName: 'RSGA' /* App Name */,
   mode: 'light' /* light | dark */,
   contentWidth: 'full' /* full | boxed */,
 

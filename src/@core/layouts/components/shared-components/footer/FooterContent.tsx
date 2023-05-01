@@ -21,8 +21,8 @@ const FooterContent = () => {
       <Typography sx={{ mr: 2 }}>
         {`© ${new Date().getFullYear()}, Made with `}
         {` by `}
-        <Link target="_blank" href="https://bookhood-dev.vercel.app/">
-          Bookhood
+        <Link target="_blank" href="https://ferassmohana.github.io/RSGA/">
+          RSGA
         </Link>
       </Typography>
     </Box>
