@@ -46,7 +46,7 @@ const Vision = () => {
 
   return (
     <div>
-      <TextField
+      {/* <TextField
         sx={{
           width: '50%',
         }}
@@ -54,7 +54,8 @@ const Vision = () => {
         label={'Authority and vision'}
         value={'Authority and vision'}
         disabled
-      />
+      /> */}
+      <h1>Authority and vision</h1>
       <br />
       <Container>
         <div
