@@ -61,7 +61,7 @@ const ContainerBoxTextAreas = styled(Box)(({ theme }) => ({
   flexDirection: 'column',
   alignItems: 'flex-start',
   marginTop: '1rem',
-  width: '49%',
+  width: '90%',
 }))
 
 const Divider = styled('hr')(({ theme }) => ({
@@ -123,29 +123,63 @@ const Governance = () => {
         />
         <br />
         <ContainerInterMemberRelationsSub>
-          <ContainerBoxTextAreas>
-            <LabelStyle>
-              Supreme Council brief <strong>English</strong>
-            </LabelStyle>
-            <TextareaAutosizeStyled
-              aria-label="minimum height"
-              minRows={15}
-              placeholder="Supreme Council brief English (this will appear in the home page)"
-              style={{ width: '100%', maxHeight: '300' }}
-            />
-          </ContainerBoxTextAreas>
+          <div
+            style={{
+              width: '100%',
+            }}
+          >
+            <ContainerBoxTextAreas>
+              <LabelStyle>
+                Supreme Council brief <strong>English</strong>
+              </LabelStyle>
+              <TextareaAutosizeStyled
+                aria-label="minimum height"
+                minRows={15}
+                placeholder="Supreme Council brief English (this will appear in the home page)"
+                style={{ width: '100%', maxHeight: '300' }}
+              />
+            </ContainerBoxTextAreas>
 
-          <ContainerBoxTextAreas>
-            <LabelStyle>
-              Supreme Council more detailed <strong>Arabic</strong>
-            </LabelStyle>
-            <TextareaAutosizeStyled
-              aria-label="minimum height"
-              minRows={15}
-              placeholder="Supreme Council more detailed Arabic (this will appear in the goverance-members page)"
-              style={{ width: '100%' }}
-            />
-          </ContainerBoxTextAreas>
+            <ContainerBoxTextAreas>
+              <LabelStyle>
+                Supreme Council brief <strong>Arabic</strong>
+              </LabelStyle>
+              <TextareaAutosizeStyled
+                aria-label="minimum height"
+                minRows={15}
+                placeholder="Supreme Council brief Arabic (this will appear in the home page)"
+                style={{ width: '100%', maxHeight: '300' }}
+              />
+            </ContainerBoxTextAreas>
+          </div>
+          <div
+            style={{
+              width: '100%',
+            }}
+          >
+            <ContainerBoxTextAreas>
+              <LabelStyle>
+                Supreme Council more detailed <strong>English</strong>
+              </LabelStyle>
+              <TextareaAutosizeStyled
+                aria-label="minimum height"
+                minRows={15}
+                placeholder="Supreme Council more detailed English (this will appear in the goverance-members page)"
+                style={{ width: '100%' }}
+              />
+            </ContainerBoxTextAreas>
+            <ContainerBoxTextAreas>
+              <LabelStyle>
+                Supreme Council more detailed <strong>English</strong>
+              </LabelStyle>
+              <TextareaAutosizeStyled
+                aria-label="minimum height"
+                minRows={15}
+                placeholder="Supreme Council more detailed English (this will appear in the goverance-members page)"
+                style={{ width: '100%' }}
+              />
+            </ContainerBoxTextAreas>
+          </div>
         </ContainerInterMemberRelationsSub>
       </ContainerInterMemberRelations>
 
@@ -174,29 +208,65 @@ const Governance = () => {
         />
         <br />
         <ContainerInterMemberRelationsSub>
-          <ContainerBoxTextAreas>
-            <LabelStyle>
-              Ministerial Council brief <strong>English</strong>
-            </LabelStyle>
-            <TextareaAutosizeStyled
-              aria-label="minimum height"
-              minRows={15}
-              placeholder="Ministerial Council brief English (this will appear in the home page) "
-              style={{ width: '100%' }}
-            />
-          </ContainerBoxTextAreas>
+          <div
+            style={{
+              width: '100%',
+            }}
+          >
+            <ContainerBoxTextAreas>
+              <LabelStyle>
+                Ministerial Council brief <strong>English</strong>
+              </LabelStyle>
+              <TextareaAutosizeStyled
+                aria-label="minimum height"
+                minRows={15}
+                placeholder="Ministerial Council brief English (this will appear in the home page) "
+                style={{ width: '100%' }}
+              />
+            </ContainerBoxTextAreas>
 
-          <ContainerBoxTextAreas>
-            <LabelStyle>
-              Ministerial Council more detailed <strong>Arabic</strong>
-            </LabelStyle>
-            <TextareaAutosizeStyled
-              aria-label="minimum height"
-              minRows={15}
-              placeholder="Ministerial Council more detailed Arabic (this will appear in the goverance-members page) "
-              style={{ width: '100%' }}
-            />
-          </ContainerBoxTextAreas>
+            <ContainerBoxTextAreas>
+              <LabelStyle>
+                Ministerial Council brief <strong>Arabic</strong>
+              </LabelStyle>
+              <TextareaAutosizeStyled
+                aria-label="minimum height"
+                minRows={15}
+                placeholder="Ministerial Council brief Arabic (this will appear in the home page) "
+                style={{ width: '100%' }}
+              />
+            </ContainerBoxTextAreas>
+          </div>
+
+          <div
+            style={{
+              width: '100%',
+            }}
+          >
+            <ContainerBoxTextAreas>
+              <LabelStyle>
+                Ministerial Council more detailed <strong>English</strong>
+              </LabelStyle>
+              <TextareaAutosizeStyled
+                aria-label="minimum height"
+                minRows={15}
+                placeholder="Ministerial Council more detailed English (this will appear in the goverance-members page) "
+                style={{ width: '100%' }}
+              />
+            </ContainerBoxTextAreas>
+
+            <ContainerBoxTextAreas>
+              <LabelStyle>
+                Ministerial Council more detailed <strong>Arabic</strong>
+              </LabelStyle>
+              <TextareaAutosizeStyled
+                aria-label="minimum height"
+                minRows={15}
+                placeholder="Ministerial Council more detailed Arabic (this will appear in the goverance-members page) "
+                style={{ width: '100%' }}
+              />
+            </ContainerBoxTextAreas>
+          </div>
         </ContainerInterMemberRelationsSub>
       </ContainerInterMemberRelations>
 
@@ -226,29 +296,63 @@ const Governance = () => {
         />
         <br />
         <ContainerInterMemberRelationsSub>
-          <ContainerBoxTextAreas>
-            <LabelStyle>
-              TheGeneralSecretariat brief <strong>English</strong>
-            </LabelStyle>
-            <TextareaAutosizeStyled
-              aria-label="minimum height"
-              minRows={15}
-              placeholder="TheGeneralSecretariat brief English (this will appear in the home page) "
-              style={{ width: '100%' }}
-            />
-          </ContainerBoxTextAreas>
+          <div
+            style={{
+              width: '100%',
+            }}
+          >
+            <ContainerBoxTextAreas>
+              <LabelStyle>
+                TheGeneralSecretariat brief <strong>English</strong>
+              </LabelStyle>
+              <TextareaAutosizeStyled
+                aria-label="minimum height"
+                minRows={15}
+                placeholder="TheGeneralSecretariat brief English (this will appear in the home page) "
+                style={{ width: '100%' }}
+              />
+            </ContainerBoxTextAreas>
+            <ContainerBoxTextAreas>
+              <LabelStyle>
+                TheGeneralSecretariat brief <strong>Arabic</strong>
+              </LabelStyle>
+              <TextareaAutosizeStyled
+                aria-label="minimum height"
+                minRows={15}
+                placeholder="TheGeneralSecretariat brief Arabic (this will appear in the home page) "
+                style={{ width: '100%' }}
+              />
+            </ContainerBoxTextAreas>
+          </div>
 
-          <ContainerBoxTextAreas>
-            <LabelStyle>
-              TheGeneralSecretariat more detailed <strong>Arabic</strong>
-            </LabelStyle>
-            <TextareaAutosizeStyled
-              aria-label="minimum height"
-              minRows={15}
-              placeholder="TheGeneralSecretariat more detailed Arabic (this will appear in the goverance-members page)"
-              style={{ width: '100%' }}
-            />
-          </ContainerBoxTextAreas>
+          <div
+            style={{
+              width: '100%',
+            }}
+          >
+            <ContainerBoxTextAreas>
+              <LabelStyle>
+                TheGeneralSecretariat more detailed <strong>English</strong>
+              </LabelStyle>
+              <TextareaAutosizeStyled
+                aria-label="minimum height"
+                minRows={15}
+                placeholder="TheGeneralSecretariat more detailed English (this will appear in the goverance-members page)"
+                style={{ width: '100%' }}
+              />
+            </ContainerBoxTextAreas>
+            <ContainerBoxTextAreas>
+              <LabelStyle>
+                TheGeneralSecretariat more detailed <strong>Arabic</strong>
+              </LabelStyle>
+              <TextareaAutosizeStyled
+                aria-label="minimum height"
+                minRows={15}
+                placeholder="TheGeneralSecretariat more detailed Arabic (this will appear in the goverance-members page)"
+                style={{ width: '100%' }}
+              />
+            </ContainerBoxTextAreas>
+          </div>
         </ContainerInterMemberRelationsSub>
       </ContainerInterMemberRelations>
 
